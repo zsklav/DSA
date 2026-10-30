@@ -24,8 +24,8 @@ class Solution:
             for j in range(n):
                 if issafe(i,j):
                     board[i][j]="Q"  
-                    backtrack(i + 1)   # Next row
-                    board[i][j] = "."
+                    backtrack(i+1)   # Next row
+                    board[i][j]="."
         backtrack(0)
         return res
 
