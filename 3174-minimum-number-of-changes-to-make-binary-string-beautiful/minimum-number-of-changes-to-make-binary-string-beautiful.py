@@ -8,8 +8,8 @@ class Solution:
         i=0
         j=1
         while j<n:
-            sets=(s[i],s[j])
-            print(sets)
+            # sets=(s[i],s[j])
+            # print(sets)
             if s[i]!=s[j]:
                 count+=1
             i=j+1
